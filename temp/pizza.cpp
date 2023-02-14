@@ -5,7 +5,7 @@
 
 MStatus Pizza::doIt(const MArgList &args)
 {
-    ShellExecute(NULL, "open", "http://www.google.com", NULL, NULL, SW_SHOWNORMAL);
+    ShellExecute(NULL, "open", "https://www.dominos.com/en/", NULL, NULL, SW_SHOWNORMAL);
     return MS::kSuccess;
 }
 
