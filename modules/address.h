@@ -30,19 +30,14 @@ public:
 		country = COUNTRY_USA;
 	}
 
-	// NOT VOID RETURN TYPE.  CHANGE LATER
-	Address data() {
-		return *this;
-	}
-
-	/*char* get_address_line_1() {
+	std::string get_address_line_1() {
 		return this->street;
 	}
 
-	char* get_address_line_2() {
-		char* temp[] = this->city + ", " + this.region + ", " + this.zip;
+	std::string get_address_line_2() {
+		std::string temp = this->city + ", " + this->region + ", " + this->zip;
 		return temp;
-	}*/
+	}
 };
 
 #endif
